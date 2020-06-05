@@ -1,0 +1,19 @@
+#navbar {
+  float: left;
+  width: 20%;
+}
+
+main{
+  width:70%;
+  float:right;
+}
+
+body{
+  font-size: 1.3em;
+}
+
+@media screen and (max-width: 992px) {
+  body {
+    background-color: blue;
+  }
+}
