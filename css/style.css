@@ -1,11 +1,14 @@
 #navbar {
   float: left;
   width: 20%;
+  position: fixed;
 }
 
 main{
-  width:70%;
+  width:75%;
   float:right;
+  border-left: 3px solid black;
+  padding-left: 3em;
 }
 
 body{
@@ -16,4 +19,18 @@ body{
   body {
     background-color: blue;
   }
+}
+
+.main-section{
+  margin-bottom: 1.3em;
+}
+
+.main-section header{
+  text-align: center;
+  font-size: 1.3em;
+  font-weight: bold;
+}
+
+code{
+  background-color: AntiqueWhite;
 }
